@@ -1,3 +1,4 @@
+//floor =>  find the biggest no. that is samller then or equal to target no.
 public class floor_of_no {
     public static void main(String[] args) {
         int[] arr = {2,3,5,9,14,16,18};

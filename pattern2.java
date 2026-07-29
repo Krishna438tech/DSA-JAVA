@@ -1,4 +1,4 @@
-package patterns1;
+// package patterns2;
 import java.util.Scanner;
 public class pattern2 {
     public static void main(String[] args) {

@@ -9,7 +9,7 @@ public class binary_search {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
-        for (int i = 0; i < arr.length; i++) {
+        for(int i = 0; i < arr.length; i++){
             arr[i] = sc.nextInt();
         }
         int target = sc.nextInt();
@@ -28,7 +28,7 @@ public class binary_search {
         while(start<=end){
             // int mid = (start + end)/2;   // find the middle element, imp=>(migth be possible that"start + end" exceeds the range of int in java)
             int mid = start + (end-start)/2;   //learn this is the better way to find mid
-            if(target < arr[mid]){
+            if(target < arr[mid]){ 
                 end = mid - 1;
             }
             else if(target > arr[mid]){
