@@ -33,7 +33,7 @@
 // }
 
 
-public class Main{
+public class Insertion_Sort{
 	// Insertion sort = after comparing elements to the left,
 	//				shift elements to the right to make room to insert a value
 	
