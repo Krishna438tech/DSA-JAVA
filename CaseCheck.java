@@ -1,9 +1,12 @@
 // Q: Write a Java program that reads a single character and determines whether it is a lowercase letter, 
 //uppercase letter, or not an alphabetic letter.
+
 import java.util.Scanner;
+
 public class CaseCheck {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        
         // System.out.println(in.next().trim());   
 // trim() removes any leading or trailing whitespace, ie: that it removes any extra spaces before or after the character input
 
