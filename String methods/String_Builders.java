@@ -4,27 +4,21 @@ public class String_Builders {
         // StringBuilder create
         StringBuilder sb = new StringBuilder("Hello");
 
-        // End me text add
-        sb.append(" World");
+        sb.append(" World");         // End me text add
         System.out.println(sb);
 
-        // Index ka character
-        System.out.println(sb.charAt(1));
+        System.out.println(sb.charAt(1));  // Index ka character
 
-        // Character change
-        sb.setCharAt(0, 'Y');
+        sb.setCharAt(0, 'Y');     // Character change
         System.out.println(sb);
 
-        // Beech me insert
-        sb.insert(5, " Java");
+        sb.insert(5, " Java");     // Beech me insert
         System.out.println(sb);
 
-        // Ek character delete
-        sb.deleteCharAt(0);
+        sb.deleteCharAt(0);       // Ek character delete
         System.out.println(sb);
 
-        // Range delete, end index excluded
-        sb.delete(0, 4);
+        sb.delete(0, 4);      // Range delete, end index excluded
         System.out.println(sb);
 
         // Text replace
@@ -34,8 +28,7 @@ public class String_Builders {
         // Total length
         System.out.println(sb.length());
 
-        // Part of string
-        System.out.println(sb.substring(0, 2));
+        System.out.println(sb.substring(0, 2));         // Part of string
 
         // Word ka index
         System.out.println(sb.indexOf("World"));
