@@ -8,13 +8,14 @@ public class CaseCheck {
 // trim() removes any leading or trailing whitespace, ie: that it removes any extra spaces before or after the character input
 
         char ch = in.next().trim().charAt(0);  
-        if (ch >= 'a' && ch <= 'z') {
+        if(ch >= 'a' && ch <= 'z'){
             System.out.println("Lowercase Letter");
         } else if (ch >= 'A' && ch <= 'Z') {
             System.out.println("Uppercase Letter");
         } else {
             System.out.println("Not an Alphabetic Letter");
         }
+
         System.out.println(ch);  
         
     }
