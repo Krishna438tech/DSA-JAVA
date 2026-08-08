@@ -22,7 +22,23 @@ public class Q5 {
             }
         }
 
-        
+        boolean equal = true; // assume matrices are equal
+
+        for(int i = 0; i < n; i++) {
+            for(int j =0; j < m; j++){
+                if(arr1[i][j] != arr2[i][j]){
+                    equal = false;
+                    break;
+                }
+            }
+            if(!equal) break;
+        }
+
+        if(equal){
+            System.out.println("Matrices are equal");
+        } else{
+            System.out.println("Matrices are not equal");
+        }
 
     }
 }
