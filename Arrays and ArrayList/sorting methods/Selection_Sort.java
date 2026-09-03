@@ -1,12 +1,3 @@
-// public class Selection_Sort {
-//     public static void main(String[] args) {
-        
-//     }
-//     static void SelectionSort(int[] arr){
-        
-//     }
-// }
-
 import java.util.Arrays;
 
 public class Selection_Sort {
