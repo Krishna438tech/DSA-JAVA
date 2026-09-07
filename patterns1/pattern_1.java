@@ -1,5 +1,3 @@
-package patterns1;
-
 import java.util.Scanner;
 
 public class pattern_1{
